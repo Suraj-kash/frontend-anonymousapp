@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Views</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Share Your View Anonymously</h1>
+    
+    <form id="viewForm">
+        <textarea id="text" placeholder="Write your view..." required></textarea>
+        <input type="file" id="media" accept="image/*,video/*">
+        <button onclick="postView()">Post View</button>
+    </form>
+
+    <h2>Recent Views</h2>
+    <div id="viewsContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
